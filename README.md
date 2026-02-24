@@ -229,7 +229,7 @@ that caused Neoformat to be invoked.
   - [`prettier`](https://github.com/withastro/prettier-plugin-astro/),
     [`prettierd`](https://github.com/fsouza/prettierd)
 - Bazel
-  - [`buildifier`](https://github.com/bazelbuild/buildtools/blob/master/buildifier/README.md)
+  - [`buildifier`](https://github.com/bazelbuild/buildtools/blob/main/buildifier/README.md)
 - Beancount
   - [`bean-format`](https://beancount.github.io/docs/running_beancount_and_generating_reports.html#bean-format)
 - Blade
@@ -261,7 +261,7 @@ that caused Neoformat to be invoked.
 - CSS
   - `css-beautify` (ships with [`js-beautify`](https://github.com/beautify-web/js-beautify)),
     [`prettydiff`](https://github.com/prettydiff/prettydiff),
-    [`stylefmt`](https://github.com/morishitter/stylefmt),
+    [`stylefmt`](https://github.com/msaktype/stylefmt),
     [`stylelint`](https://stylelint.io/),
     [`csscomb`](http://csscomb.com),
     [`prettierd`](https://github.com/fsouza/prettierd),
@@ -301,7 +301,7 @@ that caused Neoformat to be invoked.
 - Fish
   - [`fish_indent`](http://fishshell.com)
 - Fortran
-  - [`fprettify`](https://github.com/pseewald/fprettify)
+  - [`fprettify`](https://github.com/fortran-lang/fprettify)
 - F#
   - [`fantomas`](https://github.com/fsprojects/fantomas)
 - GDScript
@@ -310,7 +310,8 @@ that caused Neoformat to be invoked.
   - [`gleam format`](https://github.com/gleam-lang/gleam/)
 - Go
   - [`gofmt`](https://golang.org/cmd/gofmt/),
-    [`goimports`](https://godoc.org/golang.org/x/tools/cmd/goimports),
+    [`goimports`](https://pkg.go.dev/golang.org/x/tools/cmd/goimports),
+
     [`gofumpt`](https://github.com/mvdan/gofumpt),
     [`gofumports`](https://github.com/mvdan/gofumpt)
 - GLSL
@@ -373,7 +374,7 @@ that caused Neoformat to be invoked.
     [`eslint_d`](https://github.com/mantoni/eslint_d.js),
     [`standard`](https://standardjs.com/),
     [`semistandard`](https://github.com/standard/semistandard),
-    [`deno fmt`](https://deno.land/manual/tools/formatter),
+    [`deno fmt`](https://docs.deno.com/runtime/reference/cli/fmt/),
     [`biome format`](https://biomejs.dev)
 - JSON
   - [`js-beautify`](https://github.com/beautify-web/js-beautify),
@@ -382,13 +383,13 @@ that caused Neoformat to be invoked.
     [`prettier`](https://github.com/prettier/prettier),
     [`jq`](https://stedolan.github.io/jq/),
     [`fixjson`](https://github.com/rhysd/fixjson),
-    [`deno fmt`](https://deno.land/manual/tools/formatter),
+    [`deno fmt`](https://docs.deno.com/runtime/reference/cli/fmt/),
     [`topiary`](https://topiary.tweag.io),
     [`biome format`](https://biomejs.dev)
 - JSONC (JSON with comments)
   - [`prettierd`](https://github.com/fsouza/prettierd),
     [`prettier`](https://github.com/prettier/prettier),
-    [`deno fmt`](https://deno.land/manual/tools/formatter),
+    [`deno fmt`](https://docs.deno.com/runtime/reference/cli/fmt/),
     [`biome format`](https://biomejs.dev)
 - jsonnet
   - [`jsonnetfmt`](https://github.com/google/jsonnet)
@@ -397,7 +398,7 @@ that caused Neoformat to be invoked.
 - KDL
   - [`kdlfmt`](https://github.com/hougesen/kdlfmt/)
 - Kotlin
-  - [`ktlint`](https://github.com/shyiko/ktlint),
+  - [`ktlint`](https://github.com/pinterest/ktlint),
     [`prettierd`](https://github.com/fsouza/prettierd),
     [`prettier`](https://github.com/prettier/prettier)
 - LaTeX
@@ -417,10 +418,10 @@ that caused Neoformat to be invoked.
   - [`lua-format`](https://github.com/Koihik/LuaFormatter)
   - [`stylua`](https://github.com/JohnnyMorganz/StyLua)
 - Markdown
-  - [`remark`](https://github.com/wooorm/remark),
+  - [`remark`](https://github.com/remarkjs/remark),
     [`prettierd`](https://github.com/fsouza/prettierd),
     [`prettier`](https://github.com/prettier/prettier),
-    [`deno fmt`](https://deno.land/manual/tools/formatter),
+    [`deno fmt`](https://docs.deno.com/runtime/reference/cli/fmt/),
     [`mdformat`](https://github.com/executablebooks/mdformat)
 - Matlab
   - [`matlab-formatter-vscode`](https://github.com/affenwiesel/matlab-formatter-vscode)
@@ -432,7 +433,7 @@ that caused Neoformat to be invoked.
   - `nimpretty` (ships with [`nim`](https://nim-lang.org/))
   - [`nph`](https://github.com/arnetheduck/nph)
 - Nix
-  - [`nixfmt`](https://github.com/serokell/nixfmt)
+  - [`nixfmt`](https://github.com/NixOS/nixfmt)
   - [`nixpkgs-fmt`](https://github.com/nix-community/nixpkgs-fmt)
   - [`alejandra`](https://github.com/kamadorueda/alejandra)
 - Objective-C
@@ -488,15 +489,15 @@ that caused Neoformat to be invoked.
   - [`refmt`](https://github.com/facebook/reason)
   - [`bsrefmt`](https://github.com/bucklescript/bucklescript)
 - Rego
-  - [`opa fmt`](https://www.openpolicyagent.org/docs/latest/cli/#opa-fmt)
+  - [`opa fmt`](https://www.openpolicyagent.org/docs/cli#fmt)
 - Ruby
   - [`rufo`](https://github.com/ruby-formatter/rufo),
     [`ruby-beautify`](https://github.com/erniebrodeur/ruby-beautify),
     [`rubocop`](https://github.com/rubocop/rubocop),
-    [`standard`](https://github.com/testdouble/standard)
+    [`standard`](https://github.com/standardrb/standard)
     [`prettier`](https://github.com/prettier/plugin-ruby)
 - Rust
-  - [`rustfmt`](https://github.com/rust-lang-nursery/rustfmt),
+  - [`rustfmt`](https://github.com/rust-lang/rustfmt),
     [`topiary`](https://topiary.tweag.io)
 - Sass
   - [`sass-convert`](http://sass-lang.com/documentation/#executables),
@@ -510,7 +511,7 @@ that caused Neoformat to be invoked.
 - SCSS
   - [`sass-convert`](http://sass-lang.com/documentation/#executables),
     [`stylelint`](https://stylelint.io/),
-    [`stylefmt`](https://github.com/morishitter/stylefmt),
+    [`stylefmt`](https://github.com/msaktype/stylefmt),
     [`prettydiff`](https://github.com/prettydiff/prettydiff),
     [`csscomb`](http://csscomb.com),
     [`prettierd`](https://github.com/fsouza/prettierd),
@@ -532,7 +533,7 @@ that caused Neoformat to be invoked.
     [`sleek`](https://github.com/nrempel/sleek)
     [`sql-formatter`](https://github.com/sql-formatter-org/sql-formatter)
 - Starlark
-  - [`buildifier`](https://github.com/bazelbuild/buildtools/blob/master/buildifier/README.md)
+  - [`buildifier`](https://github.com/bazelbuild/buildtools/blob/main/buildifier/README.md)
 - SugarSS
   [`stylelint`](https://stylelint.io/)
 - Svelte
@@ -550,7 +551,7 @@ that caused Neoformat to be invoked.
     [`tslint`](https://palantir.github.io/tslint),
     [`eslint_d`](https://github.com/mantoni/eslint_d.js),
     [`clang-format`](http://clang.llvm.org/docs/ClangFormat.html),
-    [`deno fmt`](https://deno.land/manual/tools/formatter),
+    [`deno fmt`](https://docs.deno.com/runtime/reference/cli/fmt/),
     [`biome format`](https://biomejs.dev)
 - Typst
   - [`typstfmt`](https://github.com/astrale-sharp/typstfmt)
